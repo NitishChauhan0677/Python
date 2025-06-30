@@ -1,3 +1,4 @@
+#exception handling along with file handeling age is 18-60 add percentage in salary and maximum % is 30% minimum is 1 % use 1 , 2, 3, ......30 for percentage
 employees = []
 
 def create():
