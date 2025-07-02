@@ -143,7 +143,7 @@ class EmployeeManager:
             elif choice == '3':
                 self.raise_salary()
             elif choice == '4':
-                print("Exiting program. Goodbye!")
+                print("Thanku, Exiting from the program. Goodbye!")
                 break
             else:
                 print("Invalid choice. Please enter 1 to 4.\n")
