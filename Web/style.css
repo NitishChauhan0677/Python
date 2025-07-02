@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  margin: 0;
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364, #0f2027); */
+  background-image: url(premium_photo-1697729690458-2d64ca777c04.avif);
+}
+p {
+  color: red;
+  font-size: 24px;
+}
+h1 {
+  color: blue;
+  font-size: 6em;
+}
+#hello {
+  color: green;
+  font-family: cursive;
+  font-size: 3em;
+}
+#is {
+  color: aqua;
+}
+.cs {
+  color: mediumaquamarine;
+  font-family: fantasy;
+  background-color: beige;
+}
+
+p.check {
+  color: coral;
+  font-family: cursive;
+}
