@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home - LPU</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid black;
+        padding: 20px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      .logo {
+        border: 2px solid black;
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .container {
+        display: flex;
+        height: 80vh;
+        border: 2px solid black;
+        border-top: none;
+      }
+
+      .sidebar {
+        width: 200px;
+        border-right: 2px solid black;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .sidebar a {
+        display: block;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+      }
+
+      .main {
+        flex-grow: 1;
+        padding: 20px;
+        border-left: 2px solid black;
+        box-sizing: border-box;
+      }
+
+      .content-box {
+        border: 2px solid black;
+        height: 100%;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Lovely Professional University</h1>
+      <div class="logo">logo</div>
+    </div>
+
+    <div class="container">
+      <div class="sidebar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="main">
+        <div class="content-box">
+          <h2>Home</h2>
+          <p>
+            Welcome to the Lovely Professional University homepage. Explore our
+            campus and programs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
